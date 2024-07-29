@@ -11,4 +11,5 @@ const (
 	IAM_INVALID_USERNAME_LENGTH             = 100005 // 用户名长度不合法：需要在 1 到 30 之间
 	IAM_INVALID_USERNAME_FORMAT             = 100006 // 用户名格式不合法：只能包含字母、数字、下划线
 	IAM_USERNAME_ALREADY_EXISTS             = 100007 // 用户名已存在
+	IAM_INVALID_EMAIL_FORMAT                = 100008 // 邮箱格式不合法
 )
